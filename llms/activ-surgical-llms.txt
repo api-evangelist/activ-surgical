@@ -1,0 +1,40 @@
+# Activ Surgical
+
+> Activ Surgical is a Boston, Massachusetts digital surgery company building intraoperative surgical intelligence. Its ActivSight Intelligent Light imaging module attaches to existing laparoscopic and robotic surgical systems and overlays augmented-reality physiology on a standard monitor — ActivPerfusion for dye-free real-time blood-perfusion imaging via laser speckle contrast imaging, and ActivICG for indocyanine green visualization. The module is powered by the hardware-agnostic ActivEdge computer-vision/AI platform.
+
+Important for agents and integrators: **Activ Surgical publishes no public API, developer portal, SDK, CLI, MCP server, agent card, or machine-readable API contract.** As of 2026-08-02, no OpenAPI/Swagger/AsyncAPI/GraphQL surface was found on any probed host, and api./developer./developers./docs./status./trust.activsurgical.com do not resolve in DNS. Integration inquiries go through the contact form. Do not assume or synthesize an Activ Surgical API — none is published.
+
+## Company
+
+- [Activ Surgical](https://www.activsurgical.com/): Company home — intraoperative surgical intelligence.
+- [About](https://www.activsurgical.com/about): Mission, leadership and investors. Headquartered in Boston, MA. Performed the first autonomous robotic soft-tissue surgery in 2018.
+- [Contact](https://www.activsurgical.com/contact): General and demo-request inquiries; info@activsurgical.com.
+- [Careers](https://apply.workable.com/activ-2/?lng=en): Open roles.
+
+## Products
+
+- [Technology / Products](https://www.activsurgical.com/products): ActivSight Intelligent Light, ActivPerfusion and ActivICG modes, ActivEdge platform. Subscription pricing model with no capital-equipment purchase.
+- [For healthcare professionals](https://www.activsurgical.com/hcps): Clinical positioning for surgeons.
+- [Indications for use](https://www.activsurgical.com/indications-for-use): Cleared indications for the device.
+- [Customers](https://www.activsurgical.com/customers): Deploying health systems.
+
+## Regulatory and compliance
+
+- [Compliance](https://www.activsurgical.com/compliance): EU MDR declarations of conformity (Light Engine and Imaging Modules, Light Cable and Adapters, Reprocessing Trays), ISO 13485:2016 quality management system, statement of compatibility.
+- [FDA clearance](https://www.activsurgical.com/news/fda-clearance): FDA 510(k) clearance of the ActivSight Intraoperative Imaging Module, announced 9 April 2021.
+- [CE Mark](https://www.activsurgical.com/news/activ-surgical-secures-ce-mark-approval-for-activsight-intelligent-light): CE Mark approval, December 2022.
+- [Privacy policy](https://www.activsurgical.com/privacy-policy)
+- [Trademarks](https://www.activsurgical.com/trademarks)
+
+## Evidence and research
+
+- [News](https://www.activsurgical.com/news): Company announcements, clinical study results and white papers. RSS: https://www.activsurgical.com/feed/
+- [Bibliography](https://www.activsurgical.com/bibliography): Peer-reviewed literature.
+- [Citations](https://www.activsurgical.com/citations): Referenced claims.
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/activ-surgical/refs/heads/main/apis.yml): APIs.json 0.20 profile for Activ Surgical.
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/activ-surgical/refs/heads/main/conformance/activ-surgical-conformance.yml): Regulatory and standards conformance, with evidence URLs.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/activ-surgical/refs/heads/main/security/activ-surgical-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [Well-known probe log](https://raw.githubusercontent.com/api-evangelist/activ-surgical/refs/heads/main/well-known/activ-surgical-well-known.yml): Every /.well-known/ and spec path probed, and its status.

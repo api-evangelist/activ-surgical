@@ -1,17 +1,41 @@
 aid: activ-surgical
 name: Activ Surgical
-description: 'Activ Surgical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Activ Surgical is a Boston, Massachusetts digital surgery company building
+  intraoperative surgical intelligence for the operating room. Its flagship product,
+  the ActivSight Intelligent Light imaging module, attaches to existing laparoscopic
+  and robotic surgical systems and renders augmented-reality overlays on a standard
+  monitor, letting surgeons see physiology the naked eye cannot. ActivPerfusion delivers
+  dye-free, real-time blood-perfusion imaging using laser speckle contrast imaging,
+  while ActivICG supports conventional indocyanine green visualization of structures
+  such as bile ducts. The module is powered by the ActivEdge platform, a hardware-agnostic
+  computer-vision, AI and machine-learning stack the company is building to turn
+  intraoperative data into real-time surgical guidance. Activ Surgical performed the
+  first autonomous robotic soft-tissue surgery in 2018, received FDA 510(k) clearance
+  for ActivSight in April 2021 and CE Mark approval in December 2022, and sells on a
+  subscription model with no capital-equipment purchase. The company publishes no
+  public developer program, API, SDK or machine-readable API contract as of this
+  profiling pass; its public technical surface is regulatory (EU MDR declarations of
+  conformity, ISO 13485:2016) and clinical (peer-reviewed studies and white papers).'
 url: https://raw.githubusercontent.com/api-evangelist/activ-surgical/refs/heads/main/apis.yml
+image: https://www.activsurgical.com/wp-content/uploads/2023/11/activ-surgical-og.jpg
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-08-02 - no public API surface found
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Health Care
+- Medical Devices
+- Surgery
+- Surgical Robotics
+- Medical Imaging
+- Artificial Intelligence
+- Computer Vision
+- Augmented Reality
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +44,40 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://www.activsurgical.com/
+- type: About
+  url: https://www.activsurgical.com/about
+- type: Products
+  url: https://www.activsurgical.com/products
+- type: Blog
+  url: https://www.activsurgical.com/news
+- type: BlogRSS
+  url: https://www.activsurgical.com/feed/
+- type: Support
+  name: Contact Us
+  url: https://www.activsurgical.com/contact
+- type: PrivacyPolicy
+  url: https://www.activsurgical.com/privacy-policy
+- type: Compliance
+  name: Regulatory compliance - EU MDR declarations of conformity, ISO 13485:2016, CE Mark
+  url: https://www.activsurgical.com/compliance
+- type: Conformance
+  url: conformance/activ-surgical-conformance.yml
+- type: Careers
+  url: https://apply.workable.com/activ-2/?lng=en
+- type: LinkedIn
+  url: https://www.linkedin.com/company/activ-surgical/
+- type: Twitter
+  url: https://twitter.com/ActivSurgical
+- type: DomainSecurity
+  url: security/activ-surgical-domain-security.yml
+- type: LLMsTxt
+  url: llms/activ-surgical-llms.txt
+- type: SecondaryMarket
+  name: Forge Global - Activ Surgical stock
   url: https://forgeglobal.com/activ-surgical_stock/
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

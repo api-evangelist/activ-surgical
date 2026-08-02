@@ -1,0 +1,72 @@
+generated: '2026-08-02'
+method: searched
+source: https://www.activsurgical.com/compliance
+docs: https://www.activsurgical.com/compliance
+summary: >-
+  Activ Surgical is a regulated medical-device manufacturer, not an API provider. Its
+  published conformance surface is entirely regulatory and quality-system based: EU MDR
+  declarations of conformity, an ISO 13485:2016 quality management system, CE Mark
+  approval and an FDA 510(k) clearance for the ActivSight Intelligent Light. No public
+  API, machine-readable API contract, or API-facing standards conformance (OAuth 2.0,
+  OpenID Connect, RFC 9457, FHIR, SCIM, OData) was found on any probed host as of this
+  pass, so the API-side standards below are recorded as not applicable rather than failing.
+standards:
+- id: iso-13485-2016
+  name: ISO 13485:2016 Medical devices - Quality management systems
+  conforms: true
+  evidence: ISO 13485:2016 certification listed on the published compliance page
+  source: https://www.activsurgical.com/compliance
+- id: eu-mdr-2017-745
+  name: EU Medical Device Regulation (EU) 2017/745
+  conforms: true
+  evidence: >-
+    Declarations of conformity published for the Light Engine and Imaging Modules, the
+    Light Cable and Adapters, and the Reprocessing Trays
+  source: https://www.activsurgical.com/compliance
+- id: ce-mark
+  name: CE Mark
+  conforms: true
+  evidence: CE Mark approval for ActivSight Intelligent Light announced December 2022
+  source: https://www.activsurgical.com/news/activ-surgical-secures-ce-mark-approval-for-activsight-intelligent-light
+- id: fda-510k
+  name: US FDA 510(k) premarket notification
+  conforms: true
+  evidence: >-
+    FDA 510(k) clearance of the ActivSight Intraoperative Imaging Module announced
+    9 April 2021
+  source: https://www.activsurgical.com/news/fda-clearance
+- id: oauth2
+  name: OAuth 2.0
+  conforms: false
+  applicable: false
+  evidence: no public API or securityScheme published; no OAuth metadata at any probed host
+- id: openid-connect
+  name: OpenID Connect
+  conforms: false
+  applicable: false
+  evidence: /.well-known/openid-configuration returned 404 on www.activsurgical.com
+- id: rfc9457-problem-details
+  name: RFC 9457 Problem Details for HTTP APIs
+  conforms: false
+  applicable: false
+  evidence: no OpenAPI or error contract published
+- id: rfc9116-security-txt
+  name: RFC 9116 security.txt
+  conforms: false
+  evidence: /.well-known/security.txt returned 404 on www.activsurgical.com
+- id: fhir-r4
+  name: HL7 FHIR R4
+  conforms: false
+  applicable: false
+  evidence: no clinical data-exchange interface published
+- id: hipaa
+  name: HIPAA
+  conforms: false
+  applicable: null
+  evidence: no HIPAA statement found on the public compliance or privacy pages
+x-evidence:
+  fetched: '2026-08-02'
+  probes:
+  - {url: 'https://www.activsurgical.com/compliance', http_status: 200}
+  - {url: 'https://www.activsurgical.com/.well-known/security.txt', http_status: 404}
+  - {url: 'https://www.activsurgical.com/.well-known/openid-configuration', http_status: 404}

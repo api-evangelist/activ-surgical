@@ -17,6 +17,17 @@ description: 'Activ Surgical is a Boston, Massachusetts digital surgery company 
   profiling pass; its public technical surface is regulatory (EU MDR declarations of
   conformity, ISO 13485:2016) and clinical (peer-reviewed studies and white papers).'
 url: https://raw.githubusercontent.com/api-evangelist/activ-surgical/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.activsurgical.com/wp-content/uploads/2023/11/activ-surgical-og.jpg
 x-type: company
 x-source: harvest:secondary-market

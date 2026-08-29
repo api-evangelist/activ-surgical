@@ -17,6 +17,9 @@ description: 'Activ Surgical is a Boston, Massachusetts digital surgery company 
   profiling pass; its public technical surface is regulatory (EU MDR declarations of
   conformity, ISO 13485:2016) and clinical (peer-reviewed studies and white papers).'
 url: https://raw.githubusercontent.com/api-evangelist/activ-surgical/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "enrichment pass 2026-08-02 - no public API surface found"
 deliveryModel:
   model: unknown
   open_source: false

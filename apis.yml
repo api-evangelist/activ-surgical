@@ -59,7 +59,7 @@ tags:
 - Surgical Robotics
 - Medical Imaging
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Augmented Reality
 - Digital Health
 tags_raw:
@@ -73,6 +73,7 @@ tags_raw:
 - Computer Vision
 - Augmented Reality
 - Digital Health
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
